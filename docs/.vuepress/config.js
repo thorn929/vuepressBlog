@@ -1,7 +1,8 @@
 module.exports = {
   title: "刘晓北",
   description: '一个前端狗记录一点小事情',
-  dest: 'public',
+  // dest: 'public', //打包后生成的地址
+  base: '/', // 这是部署到github相关的配置
   head: [
     ['link', {
       rel: 'icon',
