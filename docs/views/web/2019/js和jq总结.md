@@ -6,6 +6,11 @@ tags:
 categories:
  - 前端
 ---
+::: tip
+1. js和jQuery的操作dom的总结
+2. 一些简单的知识点
+:::
+<!-- more -->
 > js是一种脚本语言，常用于网页客户端编程，使网页在客户端浏览器中，实现更多地动态功能，表现出更加丰富的视觉效果。
 >
 > jquery是一个快速、简洁的JavaScript框架，极大的简化了javascript编程。
@@ -238,3 +243,5 @@ $('div').html('新的html');
 $('input').attr('value', '新的值');
 $('div').prop('disabled',true);
 ```
+
+### 修改和获取类名样式
